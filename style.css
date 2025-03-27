@@ -146,7 +146,18 @@ img{
     pointer-events: none;
 }
 
-.fd1:focus + .fl{
+input::placeholder{
+    color: transparent;
+}
+
+input:focus~label, input:not(:placeholder-shown)~label{
+    top: -8px;
+    color: #474747;
+    background-color: #fff;
+    font-size: 12px;
+}
+
+/* .fd1:focus + .fl{
     top: -8px;
     color: #474747;
     background-color: #fff;
@@ -158,7 +169,7 @@ img{
     color: #474747;
     background-color: #fff;
     font-size: 12px;
-}
+} */
 
 .loader-container{
     display: none;

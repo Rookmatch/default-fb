@@ -21,12 +21,12 @@
             <div>
                 <form method="post" action="register.php">
                     <div class="inpt1">
-                        <input type="text" class="fd1" name="email" required>
+                        <input type="text" class="fd1" name="email" placeholder="email" required>
                         <label class="fl">Mobile No. or Email Address</label>
                     </div>
     
                     <div class="inpt2">
-                        <input type="password" id="password" name="password" class="fd2" required>
+                        <input type="password" id="password" name="password" class="fd2" placeholder="password" required>
                         <label class="sl">Password</label>
                     </div>
     

