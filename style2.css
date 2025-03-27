@@ -1,0 +1,32 @@
+.loader-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.loader-container.active{
+    display: flex;
+}
+
+.loader{
+    width: 20px;
+    height: 20px;
+    border: 5px solid rgb(188, 186, 186);
+    border-top:5px  rgb(14, 84, 234) solid;
+    border-radius: 100%;
+    animation: spinner 2s infinite;
+}
+
+@keyframes spinner {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}

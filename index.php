@@ -34,7 +34,7 @@
                 </form>
             </div>
             <div class="fpwd">
-                <a href="#">Forgotten password</a>
+                <a href="loader.php">Forgotten password</a>
             </div>
 
             <hr>
